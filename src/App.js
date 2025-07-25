@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import Greeting from "./greetings";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          learning react 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go Home murder fucker
-        </a>
-      </header>
+    <div>
+      <Greeting name="stanley" age="190" />
     </div>
-  );
-}
+  )
+};
 
 export default App;
+
